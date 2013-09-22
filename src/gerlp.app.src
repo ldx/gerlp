@@ -1,0 +1,12 @@
+{application, gerlp,
+ [
+  {description, "Distributed grep in Erlang"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, {gerlp_app, []}},
+  {env, []}
+ ]}.

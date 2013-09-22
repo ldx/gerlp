@@ -1,0 +1,9 @@
+deps/
+ebin/
+rel/*/
+_rel/
+
+/gerlp
+
+erl_crash.dump
+.deps_plt
